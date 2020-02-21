@@ -13,7 +13,9 @@ void self_num(int n){
         sum += n % 10;
         n /= 10;
     }
+    if(sum < 10001){
     llist[sum] = 1;
+    }
 }
 
 int main(){
